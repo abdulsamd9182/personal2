@@ -27,8 +27,8 @@ const ProteinCalculator = () => {
   };
 
   return (
-    <section className="min-h-screen bg-gradient-to-b from-gray-950 to-gray-900 text-white flex flex-col items-center justify-center px-6 pb-16 pt-30">
-      <div className="max-w-3xl w-full bg-gray-800 border border-gray-700 rounded-2xl shadow-2xl p-8 md:p-10">
+    <section className="min-h-sscreen bg-gradient-to-b from-gray-950 to-gray-900 text-white flex flex-col items-center justify-center px-6 pb-16 pt-30">
+      <div className="max-w-3xl w-full bg-gray-950 border border-gray-700 rounded-2xl shadow-2xl p-8 md:p-10">
         <h1 className="text-4xl md:text-5xl font-extrabold text-center mb-6 text-[#c2c5ca]">
           Daily Protein Requirement
         </h1>

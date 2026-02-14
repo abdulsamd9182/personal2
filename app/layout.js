@@ -23,23 +23,21 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
+      style={{ 
+          margin: 0, 
+          padding: 0, 
+          backgroundColor: '#020205', 
+          minHeight: '100vh',
+          overflowX: 'hidden'
+        }}
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Navbar />
+        
         {children}
 
-
+      
         {/* ✅ Botpress Chatbot Scripts */}
-        <Script
-          src="https://cdn.botpress.cloud/webchat/v3.3/inject.js"
-          strategy="afterInteractive"
-        />
-        <Script
-          src="https://files.bpcontent.cloud/2025/10/26/10/20251026104956-H0EYYHP6.js"
-          strategy="afterInteractive"
-          defer
-        />
-        <Footer />
+       
       </body>
     </html>
   );
